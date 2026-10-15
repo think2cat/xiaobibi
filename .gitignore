@@ -1,0 +1,25 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.local
+*secret*
+*secrets*
+*credential*
+*credentials*
+
+# Private keys and certificates
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# Local deployment and tool output
+.vscode/
+.idea/
+dist/
+build/
+coverage/
+*.log
